@@ -1,0 +1,97 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.4rem;
+  background-color: white;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+}
+
+.dark-body {
+  background-color: #16161D;
+  background-image: none;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(256, 256, 256, 0.30);
+  backdrop-filter: blur(10px);
+  padding: 20px 50px;
+  width: 100%;
+}
+
+.leftNavbar {
+  float: left;
+}
+.logo {
+  font-size: 2rem;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  position: absolute;
+  opacity: 1;
+  text-align: center;
+  width: 150px;
+  transition: all 0.2s;
+}
+.hide {
+  opacity: 0;
+}
+
+.rightNavbar {
+  float: right;
+  margin-right: 80px;
+}
+
+.rightNavbar a {
+  margin: 20px;
+}
+
+.rightNavbar a:hover, .footer a:hover{
+  color: black;
+}
+
+a {
+  color: #2d4059;
+  text-decoration: none;
+}
+
+.dark-words{
+  color: white;
+}
+
+p {
+  color: black;
+}
+
+.dark-paras{
+  color: #eaeaea;
+}
+
+.profile {
+  position: relative;
+  margin: 10%;
+  margin-bottom: 0;
+}
+
+.highlights {
+  margin: auto;
+  padding: 10px 30px;
+  width: 50%;
+}
+
+.highlights p, .info {
+  text-align: justify;
+  font-family: 'Alata', sans-serif;
+  width: 75%;
+  margin: auto;
+  padding-top: 50px;
+  line-height: 1.5;
+}

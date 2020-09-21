@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Personal Site</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/64b822dc40.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="class="dark-words"">
+    <style media="screen">
+      .footer {
+        background-color: #ea5455;
+        margin-top: 30px;
+        padding: 30px 15px 15px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .footer a{
+        padding: 20px;
+      }
+      .edu h3 {
+        font-size: 1.3rem;
+      }
+    </style>
+    <nav class="navbar">
+      <div class="leftNavbar">
+        <a href="#" class="logo">Tilotham</a>
+      </div>
+      <div class="rightNavbar">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#acheivement">Acheivement</a>
+        <a href="#projects">Projects</a>
+        <a style="opacity:0.5" href="#footer"><i class="fas fa-arrow-down"></i></a>
+      </div>
+    </nav>
+    <div class="profile">
+      <div class="highlights">
+        <p>Hi, Iam Tilotham and Iam a student. This is my personal website here you can find about me.</p>
+      </div>
+    </div>
+    <div id="about" class="about info">
+      <h1>About</h1>
+      <p>I'm Tilotham, I'm the only son of Mr.Dhanabal and Mrs.Ananthi. I was born on a fine evening of December 25 at Coimbatore which is one of the heavenly cities, I'm a millennial kid. My name is derived from a Goddess tilottama which significantly means apsara, In the Hindu epic Mahabharata, Tilottama is described to have been created by the divine architect Vishwakarma, at Brahma's request, by taking the best quality of everything as the ingredients. Usually, people used to ask me the meaning of my name as it is different from others so I said it earlier. I started my schooling at Infant Jesus which lasted for just 6 months after that my father got transferred and I finally admitted in Vimal Jyothi Convent in Coimbatore there I studied till 10th standard and I transferred to GKD there I completed my higher studies and finally, I'm studying Engineering in KGiSL Institute of Technology at present. I mostly spend my leisure time in front of my computer doing some googling kinds of stuff, reading Reddit's subreddits, scrolling through social media, playing online games with my friends or alone, and at the weekends I will spend my time with my family. Talking tech kind of stuff makes me comfortable because I'm good at that or at least according to me I'm good at that. I'm very much interested in web development as the site you are seeing right now was created by me, I always wanted to know more about web development.</p>
+    </div>
+    <div id="education" class="education info">
+      <h1>Education</h1>
+      <p>I always used to be an above-average student in classes. I usually get good teachers. In this section, you can find my schooling and performance.</p>
+      <div class="edu">
+        <ul>
+          <li>
+            <h3>KGiSL Institute of Technology, Coimbatore, TamilNadu</h3>
+            <p>B.Tech - Information Technology, Present</p>
+          </li>
+          <li>
+            <h3>GKD Higher Secondary School, Coimbatore, TamilNadu</h3>
+            <p>Higher Secondary School Certificate - 90%, 2018</p>
+          </li>
+          <li>
+            <h3>Vimal Jyothi Convent School, Coimbatore, TamilNadu</h3>
+            <p>Secondary School Leaving Certificate - 94%, 2016</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="acheivement" class="acheivement info">
+      <h1>Acheivement</h1>
+      <ul>
+        <li>Google Digital Marketing Cerification</li>
+        <li>Flutter Beginner Cerification from Plural site</li>
+        <li>Web Development Bootcamp - online course</li>
+        <li>Javacript Cerification From Guvi</li>
+        <li>Python Cerification From Guvi</li>
+        <li>HTML Cerification From SoloLearn</li>
+        <li>PHP Cerification From SoloLearn</li>
+        <li>CSS Cerification From SoloLearn</li>
+      </ul>
+    </div>
+    <div id="projects" class="projects info">
+      <h1>Projects</h1>
+      <ul class="edu">
+        <h3>Mobile Applications using Flutter</h3>
+        <li>Xylophone Application</li>
+        <li>Trip Cost Application</li>
+        <li>Todo Application</li>
+        <li>Quiz Application</li>
+        <li>Magic Ball Application</li>
+        <li>Login Page For Application</li>
+        <li>Interactive Destini Game Application</li>
+        <h3>Web Pages and Web Sites</h3>
+        <li>Personal Site</li>
+        <li>TC generator</li>
+        <li>Dicee Game web page</li>
+        <li>Simon game web page</li>
+        <li>Weather Display Using Api</li>
+        <li>Newsletter SignUp web page</li>
+        <li>Drum Kit game web page</li>
+        <li>To-do list web site</li>
+        <li>Keeper - Google keep derived <span style="font-style: italic;">Current</span></li>
+        <li><a target="_blank" href="https://codepen.io/tilotham/pen/BaKQZMO?editors=1010">Bulb On and Off Project</a></li>
+      </ul>
+    </div>
+    <div id="footer" class="footer">
+      <a target="_blank" href="https://www.linkedin.com/in/tilotham-s-d-00ba32144/">LinkedIn</a>
+      <a target="_blank" href="https://github.com/Tilotham">Github</a>
+      <a target="_blank" href="mailto:tilothamdhanabal@gmail.com">E-Mail</a>
+      <p>© Tilotham</p>
+    </div>
+    <script type="text/javascript">
+      function toggleDarkMode(){
+        document.body.classList.toggle("dark-body");
+        const aElements = document.getElementsByTagName("a");
+        for (let i=0;i<aElements.length;i++){
+          aElements[i].classList.toggle("dark-words");
+        }
+        const pElements = document.getElementsByTagName("p");
+        for (let i=0;i<pElements.length;i++){
+          pElements[i].classList.toggle("dark-words");
+        }
+        const h3Elements = document.getElementsByTagName("h3");
+        for (let i=0;i<h3Elements.length;i++){
+          h3Elements[i].classList.toggle("dark-words");
+        }
+        const liElements = document.getElementsByTagName("li");
+        for (let i=0;i<liElements.length;i++){
+          liElements[i].classList.toggle("dark-words");
+        }
+        const h1Elements = document.getElementsByTagName("h1");
+        for (let i=0;i<h1Elements.length;i++){
+          h1Elements[i].classList.toggle("dark-words");
+        }
+      }
+    </script>
+  </body>
+</html>
